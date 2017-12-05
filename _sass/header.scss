@@ -33,5 +33,15 @@ header {
     text-align: center;
     margin: 0;
   }
+  a {
+    color: #eee;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: #fff;
+    background: none;
+  }
 }
 
