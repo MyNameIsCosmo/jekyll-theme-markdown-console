@@ -29,7 +29,19 @@ body {
   padding: 0;
   background: #080808;
   color: #aaa;
+  .default {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 }
+
+.spacer {
+  flex: 1;
+}
+
+.container { flex-shrink: 0; }
+.footer  { flex-shrink: 0; }
 
 /* General & 'Reset' Stuff */
 
@@ -78,7 +90,6 @@ ul, ol {
 
 li {
   margin-bottom: .1rem;
-  //margin-bottom: 1rem;
 }
 
 li > ul, li > ol {
@@ -87,7 +98,6 @@ li > ul, li > ol {
 
 ul li {
   list-style-type: none;
-  //list-style-image:url('../images/bullet.png');
 }
 
 ul li:before {
@@ -100,17 +110,10 @@ blockquote {
   border-left: 1px dotted #666;
 }
 
-pre, code{
-  font-family: "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
-}
-
 pre {
-  //color: #ccc;
   margin: 1rem;
   padding: 0.5rem 1rem;
   border: 1px dashed #444;
-  //word-wrap: break-word;
-  //white-space: pre-wrap;
   overflow: auto;
   overflow-y: hidden;
 }

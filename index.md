@@ -18,6 +18,9 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 ## [Header 2](#header-2)
 
+[Link to default layout](layout-default).  
+[Link to minimal layout](layout-minimal).
+
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.

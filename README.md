@@ -4,7 +4,13 @@
 
 ## Usage
 
-WIP
+### Default Layout
+The default layout includes a header and footer.
+See an [example](https://mynameiscosmo.github.io/jekyll-theme-markdown-console/layout-default)
+
+### Minimal Layout
+The minimal layout is just the content.
+See an [example](https://mynameiscosmo.github.io/jekyll-theme-markdown-console/layout-minimal)
 
 ## Customizing
 
