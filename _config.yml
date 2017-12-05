@@ -22,7 +22,7 @@ links:
 
 # Build settings
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 permalink: /:title/
 
 # Markdown Processors
