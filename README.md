@@ -1,6 +1,6 @@
 # The Markdown Console theme
 
-*Markdown Console is a Jekyll theme, made with GitHub Pages in mind. You can [preview the theme to see what it looks like](#), or even [use it today](#usage).*
+*Markdown Console is a Jekyll theme, made with GitHub Pages in mind. You can [preview the theme to see what it looks like](https://mynameiscosmo.github.io/jekyll-theme-markdown-console/), or even [use it today](#usage).*
 
 ## Usage
 
