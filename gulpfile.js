@@ -87,10 +87,11 @@ gulp.task('imagemin', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-	gulp.watch('src/styl/**/*.styl', ['stylus']);
-	gulp.watch('src/js/**/*.js', ['js']);
-	gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
-	gulp.watch(['**/*.html','*.html', '*.md', '_includes/*.html', '_includes/*.md', '_layouts/*.html', '_latous/*.md', '_posts/*', '_sass/*'], ['jekyll-rebuild']);
+	gulp.watch('assets/styl/**/*.styl', ['stylus']);
+	gulp.watch('assets/js/**/*.js', ['jekyll-rebuild']);
+  gulp.watch('assets/css/**/*.css', ['jekyll-rebuild']);
+	gulp.watch('assets/img/**/*.{jpg,png,gif}', ['imagemin']);
+	gulp.watch(['**/*.html','*.html', '*.md', '_includes/*.html', '_includes/*.md', '_layouts/*.html', '_layouts/*.md', '_posts/*', '_sass/*'], ['jekyll-rebuild']);
 });
 
 /**
