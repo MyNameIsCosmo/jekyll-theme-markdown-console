@@ -4,6 +4,7 @@
 @import "footer";
 @import "buttons";
 @import "headings";
+@import "flex";
 
 * {
   box-sizing: border-box;
@@ -30,18 +31,6 @@ body {
   background: #080808;
   color: #aaa;
 }
-.default {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.spacer {
-  flex: 1;
-}
-
-.container { flex-shrink: 0; }
-.footer  { flex-shrink: 0; }
 
 /* General & 'Reset' Stuff */
 
@@ -51,7 +40,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 50rem;
+  max-width: 70rem;
   margin: auto;
   margin-bottom: 2rem;
 }
